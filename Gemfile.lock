@@ -171,6 +171,12 @@ GEM
     nokogiri (1.15.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.15.5-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.5-x86_64-linux)
+      racc (~> 1.4)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -214,11 +220,20 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.7.0)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.7.0-arm64-darwin)
     sqlite3 (1.7.0-x86_64-darwin)
     sqlite3 (1.7.0-x86_64-linux)
     stimulus-rails (1.3.0)
       railties (>= 6.0.0)
     stringio (3.1.0)
+    tailwindcss-rails (2.1.0)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.1.0-arm64-darwin)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.1.0-x86_64-darwin)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.1.0-x86_64-linux)
+      railties (>= 6.0.0)
     thor (1.3.0)
     timeout (0.4.1)
     turbo-rails (1.5.0)
@@ -242,6 +257,7 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
+  arm64-darwin
   ruby
   x86_64-darwin-22
   x86_64-linux
@@ -258,12 +274,13 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  tailwindcss-rails (~> 2.1)
   turbo-rails
   tzinfo-data
   web-console
 
 RUBY VERSION
-   ruby 3.3.0p0
+   ruby 3.2.0p0
 
 BUNDLED WITH
    2.5.3
